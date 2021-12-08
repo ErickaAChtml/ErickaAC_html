@@ -1,0 +1,55 @@
+
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about2.gif' %}{% endblock %}
+
+
+{% block headers %}
+    <h1 style="color:write"  >Acerca de</h1>
+    <span style="color:springgreen" class="subheading">Biografia</span>
+    &nbsp;
+    <br><br>
+{% endblock %} 
+
+
+
+{% block content %}
+    <div class="container" >
+      <div class="row">   
+        <FONT style= "font-family:arial; color:blue" class="section-heading">"No existe mejor regalo que aprovechar cada instante de tu vida con una sonrrisa"</FONT> 
+        
+
+        <div >
+          <p style="text-align:center" face="raro, cinzel" size=25 color="Black" class="section-heading" >Ericka Yuleisy Anchundia Bravo</p> 
+          <p style="color:brown" >Nació en Junín-Manabí-Ecuador el 21 de marzo del 2001. Desde la niñez vive en el canton Junín perteneciente de la provincia 
+          de Manabí estudio en la escuele Vicente Mendoza Giler, luego en que colegio Carlos Antonio Garcia Mora  
+          ha sido muy estudiosa y dedicada en sus estudios y por ello a recibido 
+          reconocimientos por sus excelentes calificaciones en el colegio, asi culmino sus estudios anhelando ser un buen profesional
+          siempre se encamino a estudiar sistema de informacion porque hoy en dia es vital importancia con la ayuda incondicional de sus padres 
+          e logrado estar donde estay estudiando en una de las mejores universidades de Manabí como es la Universidad
+          Tecnica de Manabí, ahora esta cursando el quinto ciclo de Sistemas de informacion, se esta esforzando demaciado para aprender 
+          lo que me enseñan los profesores aplicando todas las tecnicas asimilares para desempeñarme en mi vida propia, 
+          consiguiendo asi ser una persona coherente logrando lo que deseo. Tengo que culminar la carrera graduarme
+          de ingeniera y seguir profesionalizandome, para estar entre los mejores para asi tener mucha acogida
+          para que jamas me falte trabajo, si dios me lo permite creare mi Propia empresa y asi ayudar a muchas personas mas.
+          </p>  
+          
+        </div>
+
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img src="{% static 'core/img/ErickaAn.jpg' %}" align= "left" width="300" height="340">
+        </div>
+        
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img src="{% static 'core/img/Ericka1.jpg' %}" width="300" height="340">
+        </div>
+
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img src="{% static 'core/img/e.jpg' %}" width="300" height="340">
+        </div>
+
+      </div> 
+    </div>
+{% endblock %}
